@@ -16,9 +16,13 @@ public class computeHMS {
 		System.out.println("Enter the second: ");
 		int second = sc.nextInt();
 		
-		int[] hms = computesHMS(second);
-		
-		System.out.println("Hour: " + hms[0] + " Minute: " + hms[1] + " Second: " + hms[2]);
+		if (second < 0) {
+			System.out.println("The seconds can not be negative.");
+		} else {
+			int[] hms = computesHMS(second);
+			
+			System.out.println("Hour: " + hms[0] + " Minute: " + hms[1] + " Second: " + hms[2]);
+		}
 		
 		sc.close();
 		
