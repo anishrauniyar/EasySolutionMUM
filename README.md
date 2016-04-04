@@ -6,6 +6,5 @@ The codes are easy and readable.
 
 ## For MUM solution
 ## In Java Programming Language
-## Questions can be provided in request
 
 #Enjoy
